@@ -3,3 +3,142 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: lightblue;
+    width: 700px;
+    margin: auto;
+    font-family: Georgia, Verdana, sans-serif;
+}
+
+.header{
+    padding: 100px;
+    text-align: center;
+    font-size: 16pt;
+}
+.section{
+    /* width: 600 ; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #e4e9f1; */
+    font-size: 15pt;
+}
+
+.labels{
+    margin-left: 60px;
+}
+
+.labels p{
+    padding: 15px;
+    
+}
+
+.inputs {
+    margin-left: -50px;
+    
+}
+
+.inputs input{
+    margin: 10px;
+    width: 160px;
+    height: 30px;
+    font-size: 13pt;
+    padding-left: 3px;
+
+}
+
+.button{
+    position: absolute;
+    top:420px;
+}
+
+.button input{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 13pt;
+    cursor: pointer;
+    
+}
+
+.countdown{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: center;
+
+}
+
+.countdown div{
+
+
+    /* border-radius: 50%; */
+    border-bottom: 2px solid black;
+    height: 40px;
+    width: 40px;
+    
+    
+    padding: 40px;
+    margin: 40px; 
+    font-size: 12pt;
+    /* background-color: black; */
+}
+
+.countdown p{
+    font-size: 22pt;
+    margin-left: -15px;
+}
+
+.showeventname {
+
+    width: 600px;
+    /* text-align: left; */
+    /* margin-left: -15px; */
+}
+
+.test{
+    position: relative;
+    top: -80px;
+    left: -50px;
+    width: 500px;
+}
+
+#day{
+    
+    position: fixed;
+    margin-top: -12px;
+    margin-left: -22px;
+    font-size: 12pt;
+}
+
+#hour{
+    margin-top: 20px;
+    margin-left: -28px;
+    font-size: 12pt;
+}
+
+#minute{
+    margin-top: 20px;
+    margin-left: -36px;
+    font-size: 12pt;
+}
+
+#second{
+    margin-top: 20px;
+    margin-left: -36px;
+    font-size: 12pt;
+}
+
+#showeventday{
+    position: relative;
+    top: -33px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12pt;
+    font-style: italic;
+    padding-top: 50px;
+}

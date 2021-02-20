@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="countdowntimer.css">
 </head>
 <body>
+
+    <div class='header'>
+        <h1>COUNTDOWN TIMER</h1>
+    </div>
+
+    <div class='section'>
+        <div class='labels'>
+            <p>Event Name: </p>
+            <p>Event Date: </p>
+            <p>Event Time: </p>
+        </div>
+
+        <div class='inputs'>
+            <p><input type="text" name="eventname" id="eventname"></p>
+            <p><input type="date" name="date_to" id="date_to"></p>
+            <p><input type="time" name="time_to" id="time_to"> (Optional)</p> 
+        </div>
+        <div class='button'>
+            <input type="button" value="Start" onclick="calcTime()">
+        </div>
+    </div>
+    <div class='countdown'>
+        
+    </div>
+
+    <div class='footer'>
+        <p>Gabriel Stefano</p>
+    </div>
     
+
+    <script src="countdowntimer.js"></script>
 </body>
 </html>
